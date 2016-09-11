@@ -9,4 +9,6 @@ trait Rule {
 
   def size: Int
   def prob(x: Int): Double
+  def prob(xs: Int*): Double = prob(xs.toList)
+  def prob(xs: List[Int]): Double = xs map prob product
 }

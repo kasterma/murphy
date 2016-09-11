@@ -1,7 +1,5 @@
 package net.kasterma
 
-import scala.language.postfixOps
-
 /**
   * Created by kasterma on 11/09/16.
   */
