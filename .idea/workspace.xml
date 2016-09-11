@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="016feb34-8c6e-41f1-bd9b-b2b12dcde85e" name="Default" comment="basic ruleset implemented">
+    <list default="true" id="016feb34-8c6e-41f1-bd9b-b2b12dcde85e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="murphy.iws" />
@@ -599,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473579403113</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="intellij changed file">
+      <created>1473579515506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1473579515506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -648,7 +655,8 @@
     <MESSAGE value="project setup" />
     <MESSAGE value="basic rules implemented" />
     <MESSAGE value="basic ruleset implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic ruleset implemented" />
+    <MESSAGE value="intellij changed file" />
+    <option name="LAST_COMMIT_MESSAGE" value="intellij changed file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
