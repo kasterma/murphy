@@ -14,8 +14,18 @@ object ruleRunner {
     println(r2.prob(80))
     println(1 to 100 map ((x:Int) => r2.prob(x)) groupBy ((x:Double) => x) mapValues (v => v.length))
 
-    val rs = RuleSet(r1, r2)
+    var rs = RuleSet(r1, r2)
     println(rs.probs)
     println(rs)
+    rs = rs.update(30)
+    println(rs)
+
+    val rs2 = RuleSet(new PredRule(x => x % 10 == 0, "multiples of 10"),
+      new PredRule(x => x % 5 == 0, "multiples of 5"))
+    var rs3 = rs.union(rs2, 0.5)
+    println(rs3)
+    rs3 = rs3.update(10)
+    println(rs3.update(10,20,30))
+
   }
 }
