@@ -25,7 +25,13 @@ object ruleRunner {
     var rs3 = rs.union(rs2, 0.5)
     println(rs3)
     rs3 = rs3.update(10)
-    println(rs3.update(10,20,30))
-
+    rs3 = rs3.update(10,20,30)
+    println(rs3)
+    println(rs3.prob(40))
+    println(rs3.prob(50))
+    println(rs3.prob(5))
+    println(rs3.prob(6))
+    println(1 to 100 map (x => rs3.prob(x)) sum)
+    println(1 to 100 map (x => rs3.prob(x)))
   }
 }
